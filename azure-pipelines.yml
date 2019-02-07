@@ -1,12 +1,13 @@
 # trigger:
 # - master
 
-pool: default
 
 jobs:
 - job: a
+  pool: default
   steps:
   - script: echo from a
 - job: b
+  pool: default
   steps:
   - script: echo from b
