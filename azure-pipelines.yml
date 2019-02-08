@@ -10,3 +10,7 @@ jobs:
   pool: default
   steps:
   - script: echo from b
+- job: c
+  pool: default
+  steps:
+    - script: echo from c
