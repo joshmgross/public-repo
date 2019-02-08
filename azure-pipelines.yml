@@ -14,3 +14,7 @@ jobs:
   pool: default
   steps:
     - script: echo from c
+- job: d
+  pool: default
+  steps:
+    - script: echo from d
