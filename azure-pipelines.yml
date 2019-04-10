@@ -1,3 +1,5 @@
+pool:
+  vmImage: macos-10.13
 
 trigger: none
 
